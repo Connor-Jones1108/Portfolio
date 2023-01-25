@@ -1,0 +1,79 @@
+{% extends 'base.html' %}
+{% block title %}Welcome to Connor Jones's website{% endblock %}
+
+{% block content %}
+
+<div class="section">
+  <div class="container">
+      <div class="intro-wrap">
+          <div class="name-text">Connor Jones</div>
+          <div class="paragraph-light">Computer MSc</div>
+          <h1 class="heading-jumbo">Hi, I'm a student at Cardiff University currently studying for an MSc in Computing! Please get in touch! </h1>
+      </div>
+  </div>
+  <div class="section">
+    <div id="works-grid" class="w-layout-grid works-grid">
+        <div id="w-node-dff26f68-5731-3efa-d3dd-8f65c72d8fa5-54c65c77">
+            <div class="work-description"><a href="/work/project-1" class="project-name-link">Project 1<br /></a>
+                <div class="paragraph-light">Home Page</div><img src="Static/Images/HOMEPAGE.EXAMPLE.JPG" alt="Homepage">
+            </div>
+        </div>
+        <div id="w-node-dff26f68-5731-3efa-d3dd-8f65c72d8fad-54c65c77">
+            <div class="work-description"><a href="/work/project-2" class="project-name-link">Project 1</a>
+                <div class="paragraph-light">Generic page - Mobile view</div><img
+                    src="Static/Images/computational.thinking.mobileview.JPG"
+                    loading="lazy"
+                    sizes="(max-width: 479px) 94vw, (max-width: 767px) 96vw, (max-width: 991px) 92vw, 713px"
+                    srcset="./Static/Images/computational.thinking.mobileview.JPG 500w"
+                    alt="" />
+            </div>
+        </div>
+        <div id="w-node-dff26f68-5731-3efa-d3dd-8f65c72d8fb4-54c65c77">
+            <div class="work-description"><a href="/work/project-3" class="project-name-link">Project 1</a>
+                <div class="paragraph-light">Computational Thinking</div><img
+                    src="https://uploads-ssl.webflow.com/63b58bf655c481a85dc65c62/63cff15dce30a4fa7a18dc25_Computation.thinking.EXAMPLE.JPG"
+                    loading="lazy"
+                    sizes="(max-width: 479px) 94vw, (max-width: 767px) 96vw, (max-width: 991px) 94vw, (max-width: 1946px) 97vw, 1888px"
+                    srcset="https://uploads-ssl.webflow.com/63b58bf655c481a85dc65c62/63cff15dce30a4fa7a18dc25_Computation.thinking.EXAMPLE-p-500.jpg 500w, https://uploads-ssl.webflow.com/63b58bf655c481a85dc65c62/63cff15dce30a4fa7a18dc25_Computation.thinking.EXAMPLE-p-800.jpg 800w, https://uploads-ssl.webflow.com/63b58bf655c481a85dc65c62/63cff15dce30a4fa7a18dc25_Computation.thinking.EXAMPLE-p-1080.jpg 1080w, https://uploads-ssl.webflow.com/63b58bf655c481a85dc65c62/63cff15dce30a4fa7a18dc25_Computation.thinking.EXAMPLE-p-1600.jpg 1600w"
+                    alt="" />
+            </div>
+        </div>
+        <div id="w-node-dff26f68-5731-3efa-d3dd-8f65c72d8fbb-54c65c77">
+            <div class="work-description"><a href="/work/project-4" class="project-name-link">Project 1</a>
+                <div class="paragraph-light">Biography</div><img
+                    src="https://uploads-ssl.webflow.com/63b58bf655c481a85dc65c62/63cff1783262a0a5641e32df_grace.hopper.example.JPG"
+                    loading="lazy"
+                    sizes="(max-width: 479px) 94vw, (max-width: 767px) 96vw, (max-width: 991px) 94vw, (max-width: 1943px) 97vw, 1885px"
+                    srcset="https://uploads-ssl.webflow.com/63b58bf655c481a85dc65c62/63cff1783262a0a5641e32df_grace.hopper.example-p-500.jpg 500w, https://uploads-ssl.webflow.com/63b58bf655c481a85dc65c62/63cff1783262a0a5641e32df_grace.hopper.example-p-800.jpg 800w, https://uploads-ssl.webflow.com/63b58bf655c481a85dc65c62/63cff1783262a0a5641e32df_grace.hopper.example-p-1080.jpg 1080w, https://uploads-ssl.webflow.com/63b58bf655c481a85dc65c62/63cff1783262a0a5641e32df_grace.hopper.example-p-1600.jpg 1600w"
+                    alt="" />
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="carrer-headline-wrap">
+            <h2>My experience</h2>
+            <p class="paragraph-light">I am currently a student at Cardiff University studying for an MSc in
+                computing. During this course I have completed projects using the following programming languages -
+                HTML, CSS, Javascript and Python. For the past four years I have worked for studygroup initially as
+                a student data specialist moving into an app support engineer position. I managed a number of
+                different service desks covering the needs of 23 different universities across the UK and Europe. I
+                have extensive experience working with Excel, PowerBI, Salesforce, Moodle, Totara, AWS and
+                Progresso. </p>
+        </div>
+        <div class="w-layout-grid work-experience-grid">
+            <div id="w-node-dff26f68-5731-3efa-d3dd-8f65c72d8fc9-54c65c77" class="work-position-wrap">
+                <div class="position-name-text">Study Global</div>
+                <div class="paragraph-light cc-position-name">Student Data specialist </div>
+                <div class="paragraph-tiny cc-paragraph-tiny-light">April 2019 - Sept 2021<br /></div>
+            </div>
+            <div id="w-node-dff26f68-5731-3efa-d3dd-8f65c72d8fd1-54c65c77" class="work-position-wrap">
+                <div class="position-name-text">Study Global</div>
+                <div class="paragraph-light cc-position-name">App Support Engineer</div>
+                <div class="paragraph-tiny cc-paragraph-tiny-light">Sept 2021 - Present<br /></div>
+            </div>
+        </div>
+    </div>
+</div>
+ 
+    
+{% endblock %}

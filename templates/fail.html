@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+{% block title %}{{ title }}{% endblock %}
+
+{% block content %}
+
+      <div class="container"> 
+    <h1>Error!</h1>
+
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        <strong>{{ error_statement }}</strong> You should check in on some of those fields below.
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+
+   
+   
+    <br></br>
+
+    <form action="/form" method="post">
+        <div class="mb-3">
+          
+          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="First name" name="First_name">
+
+        </div>
+       
+        <div class="mb-3">
+            
+            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Last name" name="Last_name">
+                     
+        </div>
+         
+          <div class="mb-3">
+            
+            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email Address" name="Email">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+         
+        </div>
+       
+        
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    
+    </div>
+    
+{% endblock %}
